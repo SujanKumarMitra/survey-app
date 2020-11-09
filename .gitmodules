@@ -1,0 +1,9 @@
+[submodule "form-model"]
+	path = form-model
+	url = ./form-model
+[submodule "data-storage-service"]
+	path = data-storage-service
+	url = ./data-storage-service/
+[submodule "form-service"]
+	path = form-service
+	url = ./form-service/
