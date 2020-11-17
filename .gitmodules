@@ -8,3 +8,6 @@
 	path = form-service
 	url = ./form-service/
 
+[submodule "polls-app-ui"]
+	path = polls-app-ui
+	url = ./polls-app-ui/
