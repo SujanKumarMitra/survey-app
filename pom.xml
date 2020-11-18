@@ -23,7 +23,6 @@
 		<module>form-service</module>
 		<module>form-model</module>
 		<module>data-storage-service</module>
-		<module>polls-app-ui</module>
 	</modules>
 
 </project>
