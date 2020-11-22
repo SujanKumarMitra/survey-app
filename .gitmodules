@@ -10,4 +10,4 @@
 
 [submodule "polls-app-ui"]
 	path = polls-app-ui
-	url = ./polls-app-ui/
+	url = https://github.com/SujanKumarMitra/polls-app-ui
