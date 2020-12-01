@@ -7,7 +7,6 @@
 [submodule "form-service"]
 	path = form-service
 	url = https://github.com/SujanKumarMitra/form-service
-
-[submodule "polls-app-ui"]
-	path = polls-app-ui
-	url = https://github.com/SujanKumarMitra/polls-app-ui
+[submodule "app-ui"]
+	path = app-ui
+	url = ./app-ui

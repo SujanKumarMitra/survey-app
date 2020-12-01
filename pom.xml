@@ -5,13 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.mitrakumarsujan</groupId>
-	<artifactId>polls-app</artifactId>
+	<artifactId>survey-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>polls-app</name>
+	<name>survey-app</name>
 	<!-- FIXME change it to the project's website -->
-	<url>https://www.github.com/SujanKumarMitra/polls-app</url>
+	<url>https://www.github.com/SujanKumarMitra/survey-app</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
