@@ -9,4 +9,4 @@
 	url = https://github.com/SujanKumarMitra/form-service
 [submodule "app-ui"]
 	path = app-ui
-	url = ./app-ui
+	url = https://github.com/SujanKumarMitra/survey-app-ui
