@@ -9,7 +9,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>survey-app</name>
+	<name>Anonymous Surveys</name>
 	<!-- FIXME change it to the project's website -->
 	<url>https://www.github.com/SujanKumarMitra/survey-app</url>
 
@@ -23,6 +23,8 @@
 		<module>form-service</module>
 		<module>form-model</module>
 		<module>data-storage-service</module>
+		<module>config-server</module>
+		<module>discovery-server</module>
 	</modules>
 
 </project>
