@@ -10,3 +10,9 @@
 [submodule "app-ui"]
 	path = app-ui
 	url = https://github.com/SujanKumarMitra/survey-app-ui
+[submodule "discovery-server"]
+	path = discovery-server
+	url = ./discovery-server/
+[submodule "config-server"]
+	path = config-server
+	url = ./config-server/
