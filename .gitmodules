@@ -1,12 +1,12 @@
 [submodule "form-model"]
 	path = form-model
-	url = https://github.com/SujanKumarMitra/form-model
+	url = https://github.com/SujanKumarMitra/survey-app-form-model
 [submodule "data-storage-service"]
 	path = data-storage-service
-	url = https://github.com/SujanKumarMitra/data-storage-service
+	url = https://github.com/SujanKumarMitra/survey-app-data-storage-service
 [submodule "form-service"]
 	path = form-service
-	url = https://github.com/SujanKumarMitra/form-service
+	url = https://github.com/SujanKumarMitra/survey-app-form-service
 [submodule "app-ui"]
 	path = app-ui
 	url = https://github.com/SujanKumarMitra/survey-app-ui
