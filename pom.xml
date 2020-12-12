@@ -20,11 +20,12 @@
 	</properties>
 
 	<modules>
+		<module>discovery-server</module>
+		<module>config-server</module>
+		<module>gateway-server</module>
+		<module>data-storage-service</module>
 		<module>form-service</module>
 		<module>form-model</module>
-		<module>data-storage-service</module>
-		<module>config-server</module>
-		<module>discovery-server</module>
 	</modules>
 
 </project>
