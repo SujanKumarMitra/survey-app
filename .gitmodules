@@ -18,4 +18,4 @@
 	url = https://github.com/SujanKumarMitra/survey-app-config-server
 [submodule "gateway-server"]
 	path = gateway-server
-	url = ./gateway-server/
+	url = https://github.com/SujanKumarMitra/survey-app-gateway-server
