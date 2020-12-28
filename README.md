@@ -1,4 +1,4 @@
-# <img src="app-ui/public/logo.png" height="21px" /> Anonymous Surveys
+# <img src="assets/images/logo.png" height="21px" /> Anonymous Surveys
 
 An application which allows users to conduct polls anonymously.
 
