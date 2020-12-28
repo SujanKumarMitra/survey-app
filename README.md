@@ -33,7 +33,7 @@ The reason it is called _Anonymous_ is;
 ## Design
 
 This whole system is split into different microservices.
-* **Data Storage Service**: Responsible for storage and retrieval the created surveys and its suubmissions. (acts as the DAO layer)
+* **Data Storage Service**: Responsible for storage and retrieval the created surveys and its submissions. (acts as the DAO layer)
 * **Form Service**: Responsible for handling form-creation and submission of surveys.(acts as the service layer)
 * **Gateway Server**: Responsible for routing requests from clients to the microservices.
 * **Discovery Service**: Service Registry for microservice inter-communication.
