@@ -7,7 +7,7 @@ This application has two actors
 1. **Survey-Respondent**: One who submits response of said _survey_.
 
 The reason it is called _Anonymous_ is;
-* _Survey-Creator_ does not know who are submitting the responses (unless respondent has implicitely provided).
+* _Survey-Creator_ does not know who are submitting the responses (unless respondent has implicitly provided).
 * _Survey-Respondent_ does not who has created the survey. (unless creator has implicitly provided that)
 ## Features:
 * _Survey-Creator_ first creates a survey.
