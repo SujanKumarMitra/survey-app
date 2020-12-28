@@ -1,6 +1,6 @@
 # <img src="assets/images/logo.png" height="21px" /> Anonymous Surveys
 
-An application which allows users to conduct polls anonymously.
+An application which allows users to conduct surveys anonymously.
 
 This application has two actors
 1. **Survey-Creator**: One who creates the _survey_.
