@@ -4,11 +4,11 @@ An application which allows users to conduct surveys anonymously.
 
 This application has two actors
 1. **Survey-Creator**: One who creates the _survey_.
-1. **Survey-Respondent**: One who submits response of said _survey_.
+1. **Survey-Respondent**: One who responds to the said _survey_.
 
 The reason it is called _Anonymous_ is;
 * _Survey-Creator_ does not know who are submitting the responses (unless respondent has implicitly provided).
-* _Survey-Respondent_ does not who has created the survey. (unless creator has implicitly provided that)
+* _Survey-Respondent_ does not who has created the survey (unless creator has implicitly provided).
 ## Features:
 * _Survey-Creator_ first creates a survey.
 * A survey consists of couple of questions
@@ -30,6 +30,13 @@ The reason it is called _Anonymous_ is;
 * Responses are displayed in the form of a table.
 * _Survey-Creator_ can download the survey-responses in the form of **CSV**.
 
+## Dependencies
+
+* Java 11
+* Node.JS
+* MongoDB (database)
+* Redis (cache)
+
 ## Design
 
 This whole system is split into different microservices.
@@ -46,8 +53,8 @@ This whole system is split into different microservices.
 
 1. Clone the project (including submodules)
 1. Navigate to project <a href="./">root</a> directory
-1. Specify MongoDB configuration in <a href="config-server/src/main/recources/data-storage-service-dev.yml">data-storage-service-dev.yml</a>
-1. Specify Redis configuration in <a href="config-server/src/main/recources/form-service-dev.yml">form-service-dev.yml</a>
+1. Specify MongoDB configuration in <a href="https://github.com/SujanKumarMitra/survey-app-config-server/blob/master/src/main/resources/data-storage-service-dev.yml">data-storage-service-dev.yml</a>
+1. Specify Redis configuration in <a href="https://github.com/SujanKumarMitra/survey-app-config-server/blob/master/src/main/resources/form-service-dev.yml">form-service-dev.yml</a>
 1. Start your MongoDB and Redis Server
 1. Run the following commands to start spring-boot apps (**for first two commands; wait until it's fully up and running**):
     1. `./mvnw spring-boot:run -f discovery-server/pom.xml &`
