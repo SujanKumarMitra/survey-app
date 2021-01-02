@@ -9,17 +9,25 @@ This application has two actors
 The reason it is called _Anonymous_ is;
 * _Survey-Creator_ does not know who are submitting the responses (unless respondent has implicitly provided).
 * _Survey-Respondent_ does not who has created the survey (unless creator has implicitly provided).
-## Features:
-* _Survey-Creator_ first creates a survey.
-* A survey consists of couple of questions
-* Questions can be of the following types:
+
+## Features
+* Create survey forms with a few clicks
+* Wide range of widgets for various types of questions
+* Question types include:
     * Text
     * Date
     * Time
     * Single Choice (Radio)
     * Multiple Choice (Checkbox)
+* Share submission link and start monitoring responses.
+* Download all responses locally in **CSV** format.
+
+## Workflow:
+
+* _Survey-Creator_ first creates a survey.
+* A survey consists of one or more-than one question(s)
 * Questions can be marked as **compulsory**
-* _Survey-Creator_ submits inorder to create the survey.
+* _Survey-Creator_ submits to create the survey.
 * After successfully creating a survey, the following are generated:
     * A unique survey-ID
     * An access key (to access responses)
@@ -28,7 +36,7 @@ The reason it is called _Anonymous_ is;
 * _Survey-Respondent(s)_ visits the submission link and submits their response.
 * _Survey-Creator_ access with survey responses, with the survey-ID and access key generated after survey creation.
 * Responses are displayed in the form of a table.
-* _Survey-Creator_ can download the survey-responses in the form of **CSV**.
+* _Survey-Creator_ downloads the survey-responses in the form of **CSV**.
 
 ## Dependencies
 
@@ -40,9 +48,9 @@ The reason it is called _Anonymous_ is;
 ## Design
 
 This whole system is split into different microservices.
-* **Data Storage Service**: Responsible for storage and retrieval the created surveys and its submissions. (acts as the DAO layer)
+* **Data Storage Service**: Responsible for storage and retrieval of created surveys and its submissions. (acts as the DAO layer)
 * **Form Service**: Responsible for handling form-creation and submission of surveys.(acts as the service layer)
-* **Gateway Server**: Responsible for routing requests from clients to the microservices.
+* **API Gateway**: Responsible for routing requests from clients to the microservices.
 * **Discovery Service**: Service Registry for microservice inter-communication.
 * **Config Server**: Centralized Configuration Server to provide configurations to the microservices.
 * **App-UI**: (Not a microservice) but acts as main front-end client app.
